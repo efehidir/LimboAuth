@@ -26,7 +26,7 @@ import java.util.Locale;
 import java.util.UUID;
 import net.elytrium.limboauth.Settings;
 
-@DatabaseTable(tableName = "accounts")
+@DatabaseTable(tableName = "Accounts")
 public class RegisteredPlayer {
 
   public static final String NICKNAME_FIELD = "realname";
@@ -36,7 +36,7 @@ public class RegisteredPlayer {
   public static final String LOGIN_IP_FIELD = "creationIP";
   public static final String TOTP_TOKEN_FIELD = "TOTPTOKEN";
   public static final String REG_DATE_FIELD = "regDate";
-  public static final String LOGIN_DATE_FIELD = "lastlogindate";
+  public static final String LOGIN_DATE_FIELD = "lastlogin";
   public static final String UUID_FIELD = "uuid";
   public static final String PREMIUM_UUID_FIELD = "PREMIUMUUID";
   public static final String TOKEN_ISSUED_AT_FIELD = "ISSUEDTIME";
